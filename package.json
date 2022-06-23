@@ -1,0 +1,24 @@
+{
+  "name": "tdd-practice",
+  "version": "1.0.0",
+  "description": "practice TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnyfterrain/TDD-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnyfterrain/TDD-practice/issues"
+  },
+  "homepage": "https://github.com/sunnyfterrain/TDD-practice#readme",
+  "dependencies": {
+    "@types/jest": "^28.1.2",
+    "jest": "^28.1.1"
+  }
+}
