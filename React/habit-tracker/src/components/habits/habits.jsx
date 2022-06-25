@@ -1,13 +1,13 @@
 import React from 'react';
-import Habit from './habit';
-import HabitAddForm from './habitAddForm';
+import Habit from '../habit/habit';
+import HabitAddForm from '../form/habitAddForm';
 
 const Habits = ({ habits, onIncrement, onDecrement, onDelete, onAdd, onReset }) => {
   return (
     <div className="habits">
       <HabitAddForm onAdd={onAdd} />
       <ul>
-        {habits.map(habit => (
+        {habits.map((habit) => (
           <Habit
             key={habit.id}
             habit={habit}

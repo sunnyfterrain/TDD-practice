@@ -39,7 +39,7 @@ export default class HabitPresenter {
       throw new Error(`습관의 갯수는 ${this.maxHabits} 이상이 될 수 없습니다.`);
     }
     this.habits = [...this.habits, { id: Date.now(), name, count: 0 }];
-    update(this.habit);
+    update(this.habits);
   }
 
   reset(update) {
